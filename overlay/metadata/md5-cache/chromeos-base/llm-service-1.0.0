@@ -1,0 +1,14 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=sys-devel/gcc dev-util/cmake
+DESCRIPTION=Offline LLM inference service with llama.cpp and Qwen2.5
+EAPI=7
+HOMEPAGE=https://github.com/ggerganov/llama.cpp
+KEYWORDS=*
+LICENSE=MIT
+RDEPEND=sys-libs/glibc chromeos-base/minijail
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ggml-org/llama.cpp/archive/refs/tags/b8279.tar.gz -> llama.cpp-b8279.tar.gz https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf
+_eclasses_=cmake	34502c2b638b59994575d53ba3805d7b	flag-o-matic	ad475baa777c9978fa035216c8264a10	multiprocessing	e5d48c933105327e0f826ce5108afc55	ninja-utils	2453739f250643fb6f84ecea4342fd5d	toolchain-funcs	5fa645791b8a0d71c1ef741c2fca187a	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=736c83db973830b04c72e8c9c1205e8b

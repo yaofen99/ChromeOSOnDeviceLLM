@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=List of packages that make up the base OS image for amd64-generic
+EAPI=7
+KEYWORDS=*
+LICENSE=metapackage
+RDEPEND=virtual/target-chromium-os
+SLOT=0
+_md5_=a46cdd85450638c3e4b39008956dea33

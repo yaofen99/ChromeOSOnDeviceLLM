@@ -1,0 +1,8 @@
+DEFINED_PHASES=-
+DESCRIPTION=List of additional packages for the amd64-generic dev image
+EAPI=7
+KEYWORDS=*
+LICENSE=metapackage
+RDEPEND=virtual/target-chromium-os-dev chromeos-base/llm-service
+SLOT=0
+_md5_=1e86df32c464de691eefd7106984725a
