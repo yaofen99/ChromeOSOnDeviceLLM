@@ -1,6 +1,6 @@
 # ChromeOS LLM Service
 
-Runs [llama.cpp](https://github.com/ggml-org/llama.cpp) with Qwen2.5-1.5B-Instruct as an offline OpenAI-compatible HTTP API on ChromiumOS.
+Runs [llama.cpp](https://github.com/ggml-org/llama.cpp) with Qwen2.5-1.5B-Instruct as an offline OpenAI-compatible HTTP API on ChromiumOS. Compiled OS image is available at https://chromeos-ondevice-llm.s3.amazonaws.com/chromiumos_test_image.bin.zst 
 
 ## What This Does
 
@@ -177,3 +177,4 @@ Tested on CPU only (no GPU):
 
 - The upstart service config (`llm-service.conf`) lands at `/usr/local/etc/init/` in the dev image, which upstart does not auto-read. Start the server manually as shown above.
 - CPU-only inference. GPU support (`GGML_CUDA`, `GGML_VULKAN`) can be enabled in the ebuild's `src_configure()`.
+
